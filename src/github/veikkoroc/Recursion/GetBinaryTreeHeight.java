@@ -1,4 +1,4 @@
-package github.veikkoroc.recursion;
+package github.veikkoroc.Recursion;
 
 import github.veikkoroc.z_util.tree.TreeFactory;
 import github.veikkoroc.z_util.tree.TreeNode;
