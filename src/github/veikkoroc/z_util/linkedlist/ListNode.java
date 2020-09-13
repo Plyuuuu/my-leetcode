@@ -7,9 +7,14 @@ package github.veikkoroc.z_util.linkedlist;
  * @date 2020/9/10 10:35
  */
 public class ListNode {
-
-    public int val;//节点值
-    public ListNode next;//下一个节点
+    /**
+     * 节点值
+     */
+    public int val;
+    /**
+     * 下一个节点
+     */
+    public ListNode next;
     public ListNode(int x){
         this.val = x;
     }
