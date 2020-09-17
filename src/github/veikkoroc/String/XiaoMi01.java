@@ -1,6 +1,7 @@
 package github.veikkoroc.String;
 
 import java.util.Arrays;
+import java.util.Scanner;
 import java.util.Stack;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Stack;
 public class XiaoMi01 {
     public static void main(String[] args) {
 
-        System.out.println(isClose("{[]}"));
+        System.out.println(isClose("{[]}]["));
     }
     public static boolean isClose(String s){
         if (s.equals("")||s==null){
@@ -32,6 +33,9 @@ public class XiaoMi01 {
             if (chars[i] == '(' ||chars[i] == '[' ||chars[i] == '{'){
                 stack.push(chars[i]);
             }else {
+                if (stack.empty()){
+                    return false;
+                }
                 Character pop = stack.pop();
                 if (chars[i] != help(pop)){
                     return false;

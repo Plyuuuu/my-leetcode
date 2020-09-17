@@ -2,6 +2,7 @@ package github.veikkoroc.z_test;
 
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Map;
 
@@ -41,5 +42,10 @@ public class Test01 {
         }
 
         System.out.print(a);
+    }
+    @Test
+    public void test02(){
+        int[][] arr = {{1,2},{1,3},{1,4}};
+        System.out.println(Arrays.toString(arr[0]));
     }
 }
