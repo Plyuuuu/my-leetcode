@@ -48,4 +48,32 @@ public class Test01 {
         int[][] arr = {{1,2},{1,3},{1,4}};
         System.out.println(Arrays.toString(arr[0]));
     }
+
+    /**
+     * str1 在方法区的常量池中
+     * str2 在堆空间中
+     */
+    @Test
+    public void test03(){
+        long test = 012;
+        String str1 = "hello";
+        String str2 = "hel"+new String("lo");
+        System.out.println(str1);
+        System.out.println(str2);
+        System.out.println(str1==str2);
+        System.out.println(str2.equals(str1));
+    }
+    @Test
+    public void test05(){
+        int[] arr = {1};
+        int num = 1;
+        change(arr,num);
+        System.out.println(arr[0]+"------"+num);
+    }
+    public void change(int[] arr,int num){
+        arr[0] = 2;
+        num = 2;
+    }
+
+
 }
