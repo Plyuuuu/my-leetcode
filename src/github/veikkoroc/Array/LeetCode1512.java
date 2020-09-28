@@ -76,6 +76,11 @@ public class LeetCode1512 {
         return res;
     }
 
+    /**
+     * 利用已知条件和基本数据类型的高性能
+     * @param nums
+     * @return
+     */
     public static int numIdenticalPairs2(int[] nums) {
         //存放结果
         int res = 0;
@@ -99,9 +104,7 @@ public class LeetCode1512 {
         for (int num : nums) {
             res += temp[num];
             temp[num]+=1;
-
         }
-
         return res;
     }
 
