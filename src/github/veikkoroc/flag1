@@ -1,8 +1,8 @@
 
 DS:
     Array
-        1
-        268
+        1       √
+        268     √
         78
         90
     LinkedList
