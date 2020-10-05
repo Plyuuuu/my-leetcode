@@ -3,8 +3,8 @@ DS:
     Array
         1       √
         268     √
-        78
-        90
+        78      √
+        90      √
     LinkedList
         206
         21
