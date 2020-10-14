@@ -8,11 +8,11 @@ DS:
     LinkedList
         206     √
         21      √
-        2
-        24
+        2       √
+        24      √
     HashTable
-        217
-        389
+        217     √
+        389     √
         49
         560
     Queue

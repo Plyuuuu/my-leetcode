@@ -8,11 +8,11 @@ DS:
     LinkedList
         206     √
         21      √
-        2
-        24
+        2       √
+        24      √
     HashTable
-        217
-        389
+        217     √
+        389     √
         49
         560
     Queue
@@ -89,7 +89,7 @@ Arithmetic
         721
         130
     动态规划 Dynamic Programming
-        70
+        70      √ 斐波那契数列
         121
         5
         1143
