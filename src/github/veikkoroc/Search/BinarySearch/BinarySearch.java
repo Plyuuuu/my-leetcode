@@ -1,4 +1,4 @@
-package github.veikkoroc.Search;
+package github.veikkoroc.Search.BinarySearch;
 
 import java.util.Arrays;
 import java.util.LinkedList;
