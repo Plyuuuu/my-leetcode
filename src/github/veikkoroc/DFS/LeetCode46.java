@@ -28,21 +28,25 @@ public class LeetCode46 {
      * @return
      */
     public static List<List<Integer>> permute(int[] nums) {
-        int len = nums.length;//数组长度
+        //数组长度
+        int len = nums.length;
         List<List<Integer>> res = new ArrayList<>();
-        if (len == 0){//nums为空，返回空结果
+        //nums为空，返回空结果
+        if (len == 0){
             return res;
         }
-
-        Deque<Integer> path = new ArrayDeque<Integer>();//栈实现路径
-        boolean[] used = new boolean[len];//是否被选过
+        //栈实现路径
+        Deque<Integer> path = new ArrayDeque<Integer>();
+        //是否被选过
+        boolean[] used = new boolean[len];
         dfs(nums,len,0,path,used,res);
 
         return res;
     }
 
     private static void dfs(int[] nums, int len, int depth, Deque<Integer> path, boolean[] used, List<List<Integer>> res) {
-        if (depth == len){//递归结束条件
+        //递归结束条件
+        if (depth == len){
             res.add(new ArrayList<>(path));
             return;
         }
