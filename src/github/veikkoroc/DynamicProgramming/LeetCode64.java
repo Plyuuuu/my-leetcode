@@ -1,4 +1,4 @@
-package github.veikkoroc.Dynamic_Programming;
+package github.veikkoroc.DynamicProgramming;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package github.veikkoroc.Bit_Operation;
+package github.veikkoroc.BitOperation;
 
 /**
  * 762. 二进制表示中质数个计算置位

@@ -1,4 +1,4 @@
-package github.veikkoroc.Bit_Operation;
+package github.veikkoroc.BitOperation;
 
 /**
  * 给定一个整数，编写一个算法将这个数转换为十六进制数。
