@@ -1,7 +1,5 @@
 package github.veikkoroc.z_util.tree;
 
-import github.veikkoroc.BFS.LeetCode107;
-
 /**
  * 获取一个二叉树
  * 树结构参照如下
