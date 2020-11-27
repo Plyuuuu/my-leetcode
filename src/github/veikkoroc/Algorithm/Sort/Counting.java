@@ -23,7 +23,7 @@ public class Counting {
      */
     public static int[] relativeSortArray(int[] arr1, int[] arr2) {
 
-        // 创建一个包含所有arr1可能值的计数数组，数组下标就是0-1000，值是下标对应值的个数
+        // 创建一个包含所有arr1可能值的计数数组，数组下标就是0-10，值是下标对应值的个数
         int[] count = new int[10];
 
         for (int i : arr1) {
