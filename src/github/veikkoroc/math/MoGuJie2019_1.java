@@ -1,4 +1,4 @@
-package github.veikkoroc.Math;
+package github.veikkoroc.math;
 
 import org.junit.Test;
 

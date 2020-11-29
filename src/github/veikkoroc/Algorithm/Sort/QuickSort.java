@@ -48,6 +48,7 @@ public class QuickSort {
 
     /**
      *  快排主体
+     *  递归写法
      * @param arr
      * @param head
      * @param tail

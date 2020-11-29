@@ -1,4 +1,4 @@
-package github.veikkoroc.Math;
+package github.veikkoroc.math;
 
 /**
  * @author Veikko Roc
