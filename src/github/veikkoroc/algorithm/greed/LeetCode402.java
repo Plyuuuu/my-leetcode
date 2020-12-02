@@ -1,4 +1,4 @@
-package github.veikkoroc.algorithm.Greed;
+package github.veikkoroc.algorithm.greed;
 
 import org.junit.Test;
 
