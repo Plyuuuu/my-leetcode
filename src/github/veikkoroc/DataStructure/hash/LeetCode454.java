@@ -1,4 +1,4 @@
-package github.veikkoroc.DataStructure.Hash;
+package github.veikkoroc.DataStructure.hash;
 
 import org.junit.Test;
 

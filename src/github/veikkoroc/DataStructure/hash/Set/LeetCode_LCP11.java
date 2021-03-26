@@ -1,4 +1,4 @@
-package github.veikkoroc.DataStructure.Hash.Set;
+package github.veikkoroc.DataStructure.hash.Set;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
